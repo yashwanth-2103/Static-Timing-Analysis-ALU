@@ -18,6 +18,19 @@ This project demonstrates how **pipelining drastically reduces critical path del
 - Same logic as non-pipelined ALU, but **critical path is split** into shorter segments.
 - Improves timing, increases maximum fmax, and allows higher throughput without timing violations.
 
+### Visual Block Diagrams
+
+**Non-Pipelined ALU:**  
+![Non-Pipelined ALU](docs/nonpipe.svg)
+
+**Pipelined ALU:**  
+![Pipelined ALU](docs/pipe.svg)
+
+### Simulation
+
+See [SIMULATION.md](docs/SIMULATION.md) for running testbenches and waveform generation.
+
+
 ---
 
 ## ⚙️ Methodology / Flow
