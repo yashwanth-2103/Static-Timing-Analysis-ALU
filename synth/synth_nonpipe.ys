@@ -1,0 +1,4 @@
+# Yosys script for Non-Pipelined ALU synthesis
+read_verilog ../src/ALU_nonpipe.v
+synth -top ALU_nonpipe
+write_verilog ALU_nonpipe_netlist.v
