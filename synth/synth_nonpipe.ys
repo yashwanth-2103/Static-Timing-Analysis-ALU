@@ -1,4 +1,6 @@
-# Yosys script for Non-Pipelined ALU synthesis
+# Yosys synthesis script for Non-Pipelined ALU
+# Reads RTL, synthesizes, and writes gate-level netlist
+
 read_verilog ../src/ALU_nonpipe.v
 synth -top ALU_nonpipe
 write_verilog ALU_nonpipe_netlist.v
