@@ -1,0 +1,11 @@
+<svg width="400" height="150" xmlns="http://www.w3.org/2000/svg">
+  <rect x="50" y="40" width="300" height="70" fill="#4CAF50" stroke="#000" stroke-width="2"/>
+  <text x="200" y="75" font-family="Arial" font-size="16" fill="#fff" text-anchor="middle">Non-Pipelined ALU</text>
+  <line x1="0" y1="75" x2="50" y2="75" stroke="#000" stroke-width="2" marker-end="url(#arrow)"/>
+  <line x1="350" y1="75" x2="400" y2="75" stroke="#000" stroke-width="2" marker-end="url(#arrow)"/>
+  <defs>
+    <marker id="arrow" markerWidth="10" markerHeight="10" refX="0" refY="3" orient="auto" markerUnits="strokeWidth">
+      <path d="M0,0 L0,6 L9,3 z" fill="#000"/>
+    </marker>
+  </defs>
+</svg>
