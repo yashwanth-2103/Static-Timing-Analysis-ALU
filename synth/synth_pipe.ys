@@ -1,0 +1,4 @@
+# Yosys script for Pipelined ALU synthesis
+read_verilog ../src/ALU_pipe.v
+synth -top ALU_pipe
+write_verilog ALU_pipe_netlist.v
