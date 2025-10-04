@@ -1,4 +1,6 @@
-# Yosys script for Pipelined ALU synthesis
-read_verilog ../src/ALU_pipe.v
-synth -top ALU_pipe
-write_verilog ALU_pipe_netlist.v
+# Yosys synthesis script for Pipelined ALU
+# Reads RTL, synthesizes, and writes gate-level netlist
+
+read_verilog ../src/ALU_pipe.v       # Read pipelined ALU RTL
+synth -top ALU_pipe                  # Synthesize top module
+write_verilog ALU_pipe_netlist.v     # Write gate-level netlist
